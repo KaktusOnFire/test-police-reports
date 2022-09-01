@@ -43,9 +43,9 @@ docker-compose up --build -d
 
 `GET /api/v1/appeals/list/`
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `date_from` | `date` | Get reports after the specified date  |
-| `date_to` | `date` | Get reports before the specified date  |
-| `limit` | `int` | Limit reports count per page  |
-| `offset` | `int` | Starting position of the query  |
+| Parameter | Type     | Description                | Example                |
+| :-------- | :------- | :------------------------- |:-----------------------|
+| `date_from` | `date` | Get reports after the specified date | `date_from=2016-01-02` |
+| `date_to` | `date` | Get reports before the specified date | `date_to=2016-01-02` |
+| `limit` | `int` | Limit reports count per page (default - 20) | `limit=100` |
+| `offset` | `int` | Starting position of the query | `offset=25` |
