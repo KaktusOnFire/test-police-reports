@@ -41,9 +41,7 @@ docker-compose up --build -d
 
 #### Get reports
 
-```http
-  GET /api/v1/appeals/list/
-```
+`GET /api/v1/appeals/list/`
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
